@@ -1,0 +1,953 @@
+    /*!DOCUMENTACION DEL CUERPO DE LA PAGINA*/
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #f2b3bd, #eb9696, #f15bb5,
+          #e4f65b, #d9524d, #ebc44d, #c523c5, #5f7beb, #e04646, #ff399c);
+    }
+
+    /**IMAGENES DE LAS ROSAS ROJAS*/
+    .img_decorativas1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .img_decorativas1 img {
+      width: 350px;
+      height: 350px;
+      margin: 10px;
+      background-size: cover;
+      background-position: center;
+      filter: drop-shadow(30px 10px 10px #0000004d)
+    }
+
+    /**IMAGENES DE LAS ROSAS ROJAS*/
+
+    /**IMAGENES DE LAS ROSAS ROSADAS*/
+    .img_decorativas2 {
+      margin: -450px 0px 450px;
+    }
+
+    .RR {
+      margin: -500px 1700px -6px 360px;
+      width: 350px;
+      filter: drop-shadow(30px 10px 10px #0000004d)
+    }
+
+    .Rr {
+      margin: -500px 1700px 20px 450px;
+      width: 350px;
+      filter: drop-shadow(30px 10px 10px #0000004d)
+    }
+
+    .rR {
+      margin: -912px -1700px 485px 1840px;
+      width: 350px;
+      filter: drop-shadow(30px 10px 10px #0000004d)
+    }
+
+    .rr {
+      margin: -500px -1700px 62px 1750px;
+      width: 350px;
+      filter: drop-shadow(30px 10px 10px #0000004d)
+    }
+
+    /**IMAGENES DE LAS ROSAS ROSADAS*/
+
+    /**CONTENEDOR DE TODO*/
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 300px;
+      margin: auto;
+      padding: 15px;
+    }
+
+    /**CONTENEDOR DE TODO*/
+
+    /*TODO LO RELACIONADO CON EL NOMBRE-LEMA-LOGO*/
+    header {
+      text-align: center;
+      margin-bottom: -400px;
+    }
+
+    .titulo {
+      color: #000000;
+      text-shadow: #836666 0.1em 0.1em 0.2em;
+      font-size: 120px;
+      margin-bottom: 15px;
+      margin: -30px;
+    }
+
+    .lema {
+      color: #444141;
+      text-shadow: #836666 0.1em 0.1em 0.2em;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 40px;
+      margin-bottom: 50px;
+    }
+
+    .logo {
+      width: 600px;
+      height: 600px;
+      margin: auto;
+      display: block;
+      border-radius: 400px;
+      box-shadow: 10px 10px 30px 30px #000000;
+    }
+
+    /*TODO LO RELACIONADO CON EL NOMBRE-LEMA-LOGO*/
+
+    /*?LOS ARREGLOS QUE OFRECEMOS*/
+    .services {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .service {
+      display: inline-block;
+      margin: 20px 30px 50px;
+      padding: 50px 20px 10px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 30px 10px #2b292a;
+      border-radius: 60px;
+      transition: 0.3s;
+    }
+
+    .service:hover {
+      transform: scale(1.06);
+    }
+
+    .service h1 {
+      font-size: 50px;
+      margin: -20px;
+    }
+
+    .service p {
+      color: #454444;
+      font-size: 27px;
+      font-weight: bold;
+      font-variant: var(--stroke);
+    }
+
+    #precioProducto1 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto2 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto3 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto4 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto5 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto6 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto7 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto8 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto9 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto10 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto11 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto12 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto13 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto14 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto15 {
+      font-size: 30px;
+      color: #000000;
+    }
+
+    #precioProducto16 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto17 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto18 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto19 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto20 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto21 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto22 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto23 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto24 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto25 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto26 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto27 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto28 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto29 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto30 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto31 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto32 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto33 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto34 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    #precioProducto35 {
+      font-size: 35px;
+      color: #000000;
+    }
+
+    .rose-image {
+      width: 450px;
+      height: 450px;
+      margin: 50px;
+      border-radius: 50px;
+      box-shadow: -15px 10px 35px -5px #000000;
+    }
+
+    .M-P {
+      margin: auto;
+      padding: 10px 20px;
+      font-size: 30px;
+      border: none;
+      border-radius: 15px;
+      background-color: #3dec48;
+      color: #ffffff;
+      cursor: pointer;
+      box-shadow: -10px 15px 10px 0px #2a2a2980;
+    }
+
+    .M-P::before {
+      position: absolute;
+      content: '';
+      margin: -10px 0px 0px -20px;
+      height: 5px;
+      border-radius: 15px;
+      background: linear-gradient(135deg, #212121 0%, #212121 50%, #3dec48 50%, #3dec48 60%);
+      box-shadow: -5px 10px 10px 0px #3a3b3980;
+      transition: 0.3s;
+    }
+
+    .M-P:hover::before {
+      width: 1.6em;
+      height: 1.6em;
+    }
+
+    .M-P:active {
+      box-shadow: -5px 10px 10px 0px #3a3b3980;
+      transform: translate(0.2em, 0.2em);
+    }
+
+    .rose-rosa-svg {
+      margin: 10px 10px 10px 10px;
+      width: 90px;
+      height: 90px;
+    }
+
+    .rose-roja-svg {
+      margin: 10px 10px 10px 10px;
+      width: 90px;
+      height: 90px;
+    }
+
+    label {
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 10px 15px 10px 10px;
+      cursor: pointer;
+      user-select: none;
+      border-radius: 20px;
+      box-shadow: #959da533 0px 8px 24px;
+      color: #000000;
+      font-size: 25px;
+    }
+
+    input {
+      display: none;
+    }
+
+    input:checked+label svg {
+      fill: hsl(0deg 100% 50%);
+      stroke: hsl(0deg 100% 50%);
+      animation: heartButton 1s;
+    }
+
+    @keyframes heartButton {
+      0% {
+        transform: scale(1);
+      }
+
+      25% {
+        transform: scale(1.3);
+      }
+
+      50% {
+        transform: scale(1);
+      }
+
+      75% {
+        transform: scale(1.3);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    input+label .action {
+      position: relative;
+      overflow: hidden;
+      display: grid;
+    }
+
+    input+label .action span {
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      transition: all .5s;
+    }
+
+    input+label .action span.option-1 {
+      transform: translate(0px, 0%);
+      opacity: 1;
+    }
+
+    input:checked+label .action span.option-1 {
+      transform: translate(0px, -100%);
+      opacity: 0;
+    }
+
+    input+label .action span.option-2 {
+      transform: translate(0px, 100%);
+      opacity: 0;
+    }
+
+    input:checked+label .action span.option-2 {
+      transform: translate(0px, 0%);
+      opacity: 1;
+    }
+
+    /**PRECIOS*/
+
+    /*?LOS ARREGLOS QUE OFRECEMOS*/
+
+    /**PETALOS*/
+    .petalos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .petalos a {
+      width: 350px;
+      margin: 20px;
+      background-size: cover;
+      background-position: center;
+      transition: transform 0.3s;
+    }
+
+    .petalos a:nth-child(1) {
+      background-image: url('./IMAGENES/caja4.jpg');
+      height: 350px;
+      border-radius: 0 50%;
+      box-shadow: -20px 20px 25px 10px #2b292a;
+    }
+
+    .petalos a:nth-child(1):hover {
+      transform: scale(1.10);
+    }
+
+    .petalos a:nth-child(2) {
+      background-image: url('./IMAGENES/caja5.jpg');
+      height: 350px;
+      border-radius: 50% 0;
+      box-shadow: 20px 20px 25px 10px #2b292a;
+    }
+
+    .petalos a:nth-child(2):hover {
+      transform: scale(1.10);
+    }
+
+    /**PETALOS*/
+
+    /**CAJAS DECORATIVAS Y DE REGALO*/
+    .opciones_cajas {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .opciones_cajas a {
+      width: 350PX;
+      height: 50px;
+      margin: 30px;
+      background-size: cover;
+      background-position: center;
+      transition: transform 0.3s;
+    }
+
+    .opciones_cajas:hover {
+      transform: scale(1);
+    }
+
+    .opciones_cajas a:nth-child(1) {
+      background-image: url('./IMAGENES/caja2.jpg');
+      height: 350px;
+      margin: 5px;
+      border-radius: 40%;
+      box-shadow: -20px 20px 25px 10px #2b292a;
+    }
+
+    .opciones_cajas a:nth-child(1):hover {
+      transform: scale(1.10);
+    }
+
+    .opciones_cajas a:nth-child(2) {
+      background-image: url('./IMAGENES/caja_vino.jpg');
+      height: 500px;
+      width: 500px;
+      margin: 40px;
+      border-radius: 30%;
+      box-shadow: 0px 0px 30px 15px #2b292a;
+    }
+
+    .opciones_cajas a:nth-child(2):hover {
+      transform: scale(1.10);
+    }
+
+    .opciones_cajas a:nth-child(3) {
+      background-image: url('./IMAGENES/caja6.jpg');
+      height: 350px;
+      margin: 5px;
+      border-radius: 40%;
+      box-shadow: 20px 20px 25px 10px #2b292a;
+    }
+
+    .opciones_cajas a:nth-child(3):hover {
+      transform: scale(1.10);
+    }
+
+    /**CAJAS DECORATIVAS Y DE REGALO*/
+
+    /**CAJAS DE CORAZONES*/
+    .opciones {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .opciones a {
+      width: 350px;
+      height: 50px;
+      margin: 20px;
+      background-size: cover;
+      background-position: center;
+      transition: transform 0.3s;
+    }
+
+    .opcion:hover {
+      transform: scale(1.10);
+    }
+
+    .opciones a:nth-child(1) {
+      background-image: url('./IMAGENES/caja1.jpg');
+      height: 350px;
+      border-radius: 50% 0;
+      box-shadow: -20px 20px 25px 10px #2b292a;
+    }
+
+    .opciones a:nth-child(1):hover {
+      transform: scale(1.10);
+    }
+
+    .opciones a:nth-child(2) {
+      background-image: url('./IMAGENES/caja3.jpg');
+      height: 350px;
+      border-radius: 0% 50%;
+      box-shadow: 20px 20px 25px 10px #2b292a;
+    }
+
+    .opciones a:nth-child(2):hover {
+      transform: scale(1.10);
+    }
+
+    /**CAJAS DE CORAZONES*/
+
+    /*?SERVICIO DE INSTAGRAM Y ATENCION AL CLIENTE*/
+
+    .service1 {
+      display: inline-block;
+      height: 940px;
+      margin: 50px;
+      padding: 30px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 30px 10px #2b292a;
+      border-radius: 50px;
+      transition: 0.4s;
+    }
+
+    .service1:hover {
+      transform: scale(1.05);
+    }
+
+    .Black {
+      font-size: 2rem;
+      color: #000000;
+    }
+
+    .service3 {
+      display: inline-block;
+      height: 650px;
+      margin: 50px;
+      padding: 30px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 30px 10px #2b292a;
+      border-radius: 50px;
+      transition: 0.4s;
+    }
+
+    .service3:hover {
+      transform: scale(1.05);
+    }
+
+
+    .btn-insta {
+      background: transparent;
+      position: relative;
+      padding: 5px 15px;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid #ff0000;
+      border-radius: 20px;
+      outline: none;
+      overflow: hidden;
+      color: #ff0000;
+      transition: color 0.3s 0.1s ease-out;
+      text-align: center;
+    }
+
+    .btn-insta span {
+      margin: 10px;
+      font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .btn-insta::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      content: '';
+      border-radius: 50%;
+      display: block;
+      width: 20em;
+      height: 20em;
+      left: -5em;
+      text-align: center;
+      transition: box-shadow 0.5s ease-out;
+      z-index: -1;
+    }
+
+    .btn-insta:hover {
+      color: #fff;
+      border: 1px solid #ff0000;
+    }
+
+    .btn-insta:hover::before {
+      box-shadow: inset 0 0 0 10em #ff0000;
+    }
+
+    .btn-w-a {
+      margin: 20px;
+      background: transparent;
+      position: relative;
+      padding: 5px 15px;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid #03f10f;
+      border-radius: 25px;
+      outline: none;
+      overflow: hidden;
+      color: #03f10f;
+      transition: color 0.3s 0.1s ease-out;
+      text-align: center;
+    }
+
+    .btn-w-a svg {
+      fill: #03f10f;
+      height: 45px;
+      width: 45px;
+    }
+
+    .btn-w-a span {
+      margin: 10px;
+      font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .btn-w-a::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      content: '';
+      border-radius: 50%;
+      display: block;
+      width: 20em;
+      height: 20em;
+      left: -5em;
+      text-align: center;
+      transition: box-shadow 0.5s ease-out;
+      z-index: -1;
+    }
+
+    .btn-w-a:hover {
+      color: #fff;
+      border: 1px solid #03f10f;
+    }
+
+    .btn-w-a:hover svg {
+      fill: currentColor;
+    }
+
+    .btn-w-a:hover::before {
+      box-shadow: inset 0 0 0 10em #03f10f;
+    }
+
+    .btn-face {
+      margin: 2px;
+      background: transparent;
+      position: relative;
+      padding: 5px 15px;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid #0163E0;
+      border-radius: 25px;
+      outline: none;
+      overflow: hidden;
+      color: #0163E0;
+      transition: color 0.3s 0.1s ease-out;
+      text-align: center;
+    }
+
+    .btn-face svg {
+      fill: #0163E0;
+      height: 50px;
+      width: 50px;
+    }
+
+    .btn-face span {
+      margin: 10px;
+      font-size: 40px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .btn-face::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      content: '';
+      border-radius: 50%;
+      display: block;
+      width: 20em;
+      height: 20em;
+      left: -5em;
+      text-align: center;
+      transition: box-shadow 0.5s ease-out;
+      z-index: -1;
+    }
+
+    .btn-face:hover {
+      color: #fff;
+      border: 1px solid #0163E0;
+    }
+
+    .btn-face:hover svg {
+      fill: currentColor;
+    }
+
+    .btn-face:hover::before {
+      box-shadow: inset 0 0 0 10em #0163E0;
+    }
+
+    .rating {
+      margin: 10px 125px 10px 10px;
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 0.5rem;
+      --stroke: #000000;
+      --fill: #ffc228;
+    }
+
+    .rating input {
+      appearance: unset;
+    }
+
+    .rating label {
+      cursor: pointer;
+    }
+
+    .rating svg {
+      width: 3rem;
+      height: 3rem;
+      overflow: visible;
+      fill: transparent;
+      stroke: var(--stroke);
+      stroke-linejoin: bevel;
+      stroke-dasharray: 12;
+      animation: idle 4s linear infinite;
+      transition: stroke 0.2s, fill 0.5s;
+    }
+
+    @keyframes idle {
+      from {
+        stroke-dashoffset: 24;
+      }
+    }
+
+    .rating label:hover svg {
+      stroke: var(--fill);
+    }
+
+    .rating input:checked~label svg {
+      transition: 0s;
+      animation: idle 4s linear infinite, yippee 0.75s backwards;
+      fill: var(--fill);
+      stroke: var(--fill);
+      stroke-opacity: 0;
+      stroke-dasharray: 0;
+      stroke-linejoin: miter;
+      stroke-width: 8px;
+    }
+
+    @keyframes yippee {
+      0% {
+        transform: scale(1);
+        fill: var(--fill);
+        fill-opacity: 0;
+        stroke-opacity: 1;
+        stroke: var(--stroke);
+        stroke-dasharray: 10;
+        stroke-width: 1px;
+        stroke-linejoin: bevel;
+      }
+
+      30% {
+        transform: scale(0);
+        fill: var(--fill);
+        fill-opacity: 0;
+        stroke-opacity: 1;
+        stroke: var(--stroke);
+        stroke-dasharray: 10;
+        stroke-width: 1px;
+        stroke-linejoin: bevel;
+      }
+
+      30.1% {
+        stroke: var(--fill);
+        stroke-dasharray: 0;
+        stroke-linejoin: miter;
+        stroke-width: 8px;
+      }
+
+      60% {
+        transform: scale(1.2);
+        fill: var(--fill);
+      }
+    }
+
+    .personalizacion {
+      margin: 30px;
+    }
+
+    .loc-tienda {
+      margin: 30px;
+    }
+
+    .GP {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 25px;
+      color: #767171;
+    }
+
+    .btn-github {
+      margin: auto;
+      display: grid;
+      place-items: center;
+      background: #dce0e4;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 6px 6px 10px -1px #00000026,
+        -6px -6px 10px -1px #ffffffb3;
+      border: 2px solid #00000000;
+      cursor: pointer;
+      transition: transform 0.5s;
+    }
+
+    .btn-github:hover {
+      box-shadow: inset 4px 4px 6px -1px #00000033,
+        inset -4px -4px 6px -1px #ffffffb3,
+        -0.5px -0.5px 0px #ffffff,
+        0.5px 0.5px 0px #00000026,
+        0px 12px 10px -10px #0000000d;
+      border: 1px solid #0000001a;
+      transform: translateY(0.5em);
+    }
+
+    .btn-github svg {
+      transition: transform 0.5s;
+    }
+
+    .btn-github:hover svg {
+      transform: scale(0.9);
+      fill: #000000;
+    }
+
+    .service2 {
+      display: inline-block;
+      height: 550px;
+      margin: 50px;
+      padding: 30px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 30px 10px #2b292a;
+      border-radius: 50px;
+      transition: 0.4s;
+    }
+
+    .service2:hover {
+      transform: scale(1.05);
+    }
+
+
+    /*?SERVICIO DE INSTAGRAM Y ATENCION AL CLIENTE*/
+
+    /*!DOCUMENTACION DEL CUERPO DE LA PAGINA*/
